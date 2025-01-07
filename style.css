@@ -1,0 +1,181 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navigation Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Home Section */
+  #home {
+    height: 100vh;
+    background-image: url('./tokyo.jpg');
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #home h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  #home p {
+    font-size: 1.5rem;
+  }
+  
+  /* Attractions Section */
+  #attractions {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .attraction {
+    margin-bottom: 2rem;
+  }
+  
+  .attraction img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .attraction h3 {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  .attraction p {
+    margin-top: 0.5rem;
+  }
+  
+  /* Interactive Map Section */
+  #map {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #map-container {
+    width: 100%;
+    height: 500px;
+    background-color: #eaeaea;
+  }
+  
+  /* Local Tips Section */
+  #tips {
+    background-color: #fff;
+    padding: 2rem;
+  }
+  
+  .tip {
+    margin-bottom: 2rem;
+  }
+  
+  .tip h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tip p {
+    font-size: 1rem;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contact form input, #contact form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contact form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contact form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .attraction {
+      display: block;
+    }
+  
+    .attraction img {
+      width: 100%;
+    }
+  
+    #home h1 {
+      font-size: 2rem;
+    }
+  
+    #home p {
+      font-size: 1.2rem;
+    }
+  
+    #contact form input, #contact form textarea {
+      width: 90%;
+    }
+  }
+  
